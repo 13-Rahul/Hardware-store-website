@@ -1,0 +1,48 @@
+#header{
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+}
+.left-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-header h1{
+    font-size: 4.5vw;
+    padding-left: 1rem;
+
+    margin: 0px;
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    background-image: linear-gradient(to right,
+            /* #462523 0, */
+            #cb9b51 22%,
+            #f6e27a 85%,
+            #f6f2c0 50%,
+            #f6e27a 85%,
+            #cb9b51 98%,
+            #462523 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.left-header img{
+    margin-left: 0px;
+    height: 4rem;
+    width: 4rem;
+}
+.right-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+}
+.right-header ul{
+    padding-left: 0px;
+}
+.right-header ul li a{
+    font-size: 1.5rem;
+    padding: 5px;
+}
